@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhamed Abdel-Alim",
+  title: "Hi all, I'm Muhamed",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "Data professional with hands-on experience across the data lifecycle — from data collection, cleaning, and exploratory analysis to building machine learning models and working with structured data pipelines using Python and SQL."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_G8PZuCGzVqXr3i9L_afGzsy2mRUiw6k/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/MUHAMEDABDELALEEM",
+  linkedin: "www.linkedin.com/in/muhamed-abdel-alim",
+  gmail: "muhamed.abdelaleim@gmail.com",
+  facebook: "https://web.facebook.com/MHMD.ALEEEM",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I work with data to extract insights, build predictive models, and design data-driven solutions",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Perform data cleaning, preprocessing, and exploratory data analysis (EDA)""
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build and evaluate machine learning models"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Work with structured datasets using SQL and Python"
+    ),
+     emoji(
+      "⚡ Create data visualizations and dashboards"
+    ),
+     emoji(
+      "⚡ Deploy ML models using Streamlit"
     )
   ],
 
@@ -64,58 +66,14 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "Pandas", fontAwesomeClassname: "fas fa-table" },
+  { skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt" },
+  { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-brain" },
+  { skillName: "XGBoost", fontAwesomeClassname: "fas fa-chart-line" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" }
+]
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +84,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "PortSaid University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Commerce",
+      duration: "Sep 2011 - Oct 2018",
+      desc: "Completed a Bachelor's degree in Commerce with a strong foundation in business, accounting, and analytical thinking, which supports data-driven decision making..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Strong understanding of business processes and financial concepts",
+        "Developed analytical and problem-solving skills applicable to data analysis",
+        "Background supports translating business requirements into data insights"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "The Arab Academy for Science, Technology and Maritime Transport (AASTMT)",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "BASIC COURSE FOR SAILORS",
+      duration: "Aug 2011 - May 2012",
+      desc: "Port training institute (PTI)",
     }
   ]
 };
@@ -252,14 +210,14 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AI & Data Science – Digital Egypt Pioneers Initiative (DEPI)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Microsoft Data Engineer Track",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Program Details",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
