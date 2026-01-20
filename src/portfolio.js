@@ -73,7 +73,6 @@ https://fontawesome.com/icons?d=gallery */
   { skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-brain" },
   { skillName: "XGBoost", fontAwesomeClassname: "fas fa-chart-line" },
   { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" }
-]
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -111,15 +110,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Analysis",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Visualization & BI",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programming (Python & SQL)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Machine Learning & Data Science",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Data Engineering (Junior Level)",
       progressPercentage: "60%"
     }
   ],
@@ -132,29 +139,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Analyst",
+      company: "Freelance / Projects",
+      companylogo: require("./assets/images/dataAnalysisLogo.png"),
+      date: "May 2024 – Present",
+      desc: "Worked on multiple data analysis and data science projects, transforming raw data into actionable insights to support data-driven decision making.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Performed data cleaning, preprocessing, and exploratory data analysis (EDA)",
+        "Built interactive dashboards using Power BI and Excel",
+        "Developed machine learning models for prediction and trend analysis",
+        "Presented insights in a clear and business-oriented manner"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Warehouse Manager",
+      company: "Novo Pack",
+      companylogo: require("./assets/images/warehouseLogo.png"),
+      date: "Mar 2021 – Jul 2024",
+      desc: "Managed warehouse operations while leveraging data analysis to improve efficiency, accuracy, and inventory optimization.",
+      descBullets: [
+        "Analyzed inventory data to reduce stock discrepancies and operational errors",
+        "Streamlined warehouse processes, improving overall efficiency",
+        "Led and coordinated teams to deliver projects on time and within budget"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Brand Owner",
+      company: "Chic Outlet",
+      companylogo: require("./assets/images/businessLogo.png"),
+      date: "Feb 2015 – Sep 2019",
+      desc: "Owned and managed a retail business, handling sales analysis, operations, and strategic decision-making.",
+      descBullets: [
+        "Analyzed sales performance to identify trends and growth opportunities",
+        "Managed budgeting, pricing, and inventory planning",
+        "Developed strong business, leadership, and analytical skills"
+      ]
     }
   ]
 };
@@ -164,35 +183,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "DATA ANALYSIS, MACHINE LEARNING, AND BUSINESS INTELLIGENCE PROJECTS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Heart Disease Prediction Web App",
+      projectDesc: "End-to-end machine learning project to predict heart disease risk using clinical data. Built a full pipeline including data preprocessing, EDA, model training with XGBoost, and a bilingual Streamlit web application.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/MUHAMEDABDELALEEM/Heart-Disease-Prediction"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Sales Performance Dashboard",
+      projectDesc: "Interactive Power BI dashboard analyzing sales performance across products and regions, enabling data-driven decision making through KPIs and dynamic filters.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/MUHAMEDABDELALEEM/SALES-PROJECT-P.BI"
         }
       ]
     }
@@ -214,22 +233,15 @@ const achievementSection = {
       subtitle:
         "Microsoft Data Engineer Track",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "DEPI Logo",
       footerLink: [
         {
           name: "Program Details",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1WCF4mXfwWKK5UGIZx6AHwyqIYV_zErfO/view?usp=sharing"
         }
       ]
     },
+    
     {
       title: "Google Assistant Action",
       subtitle:
